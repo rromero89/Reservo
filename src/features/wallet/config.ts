@@ -36,5 +36,7 @@ export const SUPPORTED_NETWORKS: Network[] = [
 export const SUPPORTED_NETWORKS: Network[] = [CeloChain, CeloTestChain];
 //export const DEFAULT_NETWORK = AvalancheChain;
 export const DEFAULT_NETWORK = CeloTestChain;
+// imeOut para la Comprobación de la Firma
 export const SIGN_TIMEOUT_IN_SEC = 60;
+// delay en los pasos de Comprobación
 export const SLOW_DOWN_IN_MS = 1000;
